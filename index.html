@@ -1,0 +1,57 @@
+<!--Made by: Francisco Molina
+    Contacto: www.linkedin.com/in/frank-exequiel
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/archivo-encriptado.png">
+</head>
+
+<body>
+
+    <head>
+    </head>
+    <main>
+        <div class="contenedor">
+            <div class="imagenLogo">
+                <h1><img class="logo" src="img/Logo2x.png"></h1>
+            </div>
+            <div class="entrada-texto">
+                <textarea id="texto-ingresado" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="botones">
+                <p class="advertencia">&#9888 Solo letras minúsculas y sin acentos</p>
+                <button id="btnEncriptar" class="encriptar">Encriptar</button>
+                <button id="btnDesencriptar" class="desencriptar">Desencriptar</button>
+            </div>            
+        </div>
+        <div class="salida-texto">
+            <textarea id="texto-procesado" disabled></textarea>
+            <div class="imagenMarcaAgua">
+                <img src="img/Muñeco.png">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="imagenMarcaAgua">
+                <button id="btnCopiar" class="copiar">Copiar</button>
+            </div>
+        </div>
+        <div class="dev-contenedor">
+            <a href="http://www.linkedin.com/in/frank-exequiel">
+                <img class="dev" src="img/Logo Dev2.png">
+            </a>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="encriptar.js"></script>
+    <script src="desencriptar.js"></script>
+</body>
+
+</html>
