@@ -203,7 +203,7 @@ body {
 }
 
 /* Estilos para pantallas pequeñas (361px a 600px) Celular 2*/
-@media (min-width: 361px) and (max-width: 600px){
+@media (min-width: 361px) and (max-width: 600px) {
 
     /* Estilos específicos para pantallas pequeñas */
     .contenedor {
@@ -400,8 +400,9 @@ body {
 }
 
 /* Estilos para pantallas medianas (601px a *810*px) Tablet 1*/
-@media (min-width: 601px) and (max-width: 810.5px){
-    /* Estilos específicos para pantallas medianas */    
+@media (min-width: 601px) and (max-width: 810.5px) {
+
+    /* Estilos específicos para pantallas medianas */
     .contenedor {
         display: inline-block;
     }
@@ -598,6 +599,7 @@ body {
 
 /* Estilos para pantallas medianas (811px a 1024px) Tablet 2*/
 @media (min-width: 811px) and (max-width: 1024px) {
+
     /* Estilos específicos para pantallas medianas */
     .contenedor {
         display: inline-block;
@@ -848,7 +850,7 @@ body {
     }
 
     .encriptar {
-        width: 200px;
+        width: 250px;
         height: 60px;
         padding: 15px;
         color: #FFFFFF;
@@ -859,11 +861,19 @@ body {
         font-size: 20px;
         border-radius: 24px;
         border: 2px solid #0A3871;
-        margin-left: 100px;
+        margin-left: 200px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .encriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .desencriptar {
-        width: 200px;
+        width: 250px;
         height: 60px;
         padding: 15px;
         color: #0A3871;
@@ -875,6 +885,14 @@ body {
         border-radius: 24px;
         border: 2px solid #0A3871;
         margin-left: 25px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .desencriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .salida-texto {
@@ -971,6 +989,14 @@ body {
         /* Ajusta el valor según sea necesario */
         transform: translate(-50%, -50%);
         /*margin-top: 20px;*/
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .copiar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .dev-contenedor {
@@ -987,7 +1013,7 @@ body {
 }
 
 /* Estilos para pantallas grandes (1201px a *1410px*) Laptop 2*/
-@media (min-width: 1201px) and (max-width: 1410.5px){
+@media (min-width: 1201px) and (max-width: 1410.5px) {
     /* Estilos específicos para pantallas grandes */
 
     .contenedor {
@@ -1042,7 +1068,7 @@ body {
     }
 
     .encriptar {
-        width: 200px;
+        width: 250px;
         height: 60px;
         padding: 15px;
         color: #FFFFFF;
@@ -1053,11 +1079,19 @@ body {
         font-size: 20px;
         border-radius: 24px;
         border: 2px solid #0A3871;
-        margin-left: 100px;
+        margin-left: 200px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .encriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .desencriptar {
-        width: 200px;
+        width: 250px;
         height: 60px;
         padding: 15px;
         color: #0A3871;
@@ -1069,6 +1103,14 @@ body {
         border-radius: 24px;
         border: 2px solid #0A3871;
         margin-left: 25px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .desencriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .salida-texto {
@@ -1165,6 +1207,14 @@ body {
         /* Ajusta el valor según sea necesario */
         transform: translate(-50%, -50%);
         /*margin-top: 20px;*/
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .copiar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .dev-contenedor {
@@ -1248,6 +1298,14 @@ body {
         border-radius: 24px;
         border: 2px solid #0A3871;
         margin-left: 200px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .encriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .desencriptar {
@@ -1263,6 +1321,14 @@ body {
         border-radius: 24px;
         border: 2px solid #0A3871;
         margin-left: 25px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .desencriptar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .salida-texto {
@@ -1360,6 +1426,14 @@ body {
         /* Ajusta el valor según sea necesario */
         transform: translate(-50%, -50%);
         /*margin-top: 20px;*/
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .copiar:hover {
+        transform: scale(1.15);
+        box-shadow: 5px 5px 15px 8px #495057;
+
     }
 
     .dev-contenedor {
