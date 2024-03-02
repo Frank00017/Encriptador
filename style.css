@@ -993,10 +993,8 @@ body {
         cursor: pointer;
     }
 
-    .copiar:hover {
-        transform: scale(1.15);
+    .copiar:hover {        
         box-shadow: 5px 5px 15px 8px #495057;
-
     }
 
     .dev-contenedor {
@@ -1211,10 +1209,8 @@ body {
         cursor: pointer;
     }
 
-    .copiar:hover {
-        transform: scale(1.15);
+    .copiar:hover {        
         box-shadow: 5px 5px 15px 8px #495057;
-
     }
 
     .dev-contenedor {
@@ -1431,9 +1427,7 @@ body {
     }
 
     .copiar:hover {
-        transform: scale(1.15);
         box-shadow: 5px 5px 15px 8px #495057;
-
     }
 
     .dev-contenedor {
